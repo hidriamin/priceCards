@@ -1,0 +1,47 @@
+p,h1,h2,h3,h4{
+    font-family: 'Lato', sans-serif;
+}
+#box{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+.box1,.box2,.box3{
+   text-align: center;
+   background-color: white;
+   padding:20px;
+   border-radius: 20px;
+   margin-top: auto;
+}
+.price{
+    font-weight: 900;
+}
+h1,h2,h3{
+    font-weight: 600;
+}
+body{
+   display:grid;
+    background-color: #2C0A3A;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #4d2e69, #88605d, #bb9747, #ecd103)
+    
+}
+.box2{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.offer2{
+    padding: 0.5mm;
+    border-radius: 4mm;
+    background-color: #ECD103;
+    padding-right:5px;
+    padding-left: 5px;  
+}
+.offer3{
+    padding: 0.5mm;
+    border-radius: 4mm;
+    background-color: #ECD103;
+    padding-right:15px;
+    padding-left: 15px;
+}
